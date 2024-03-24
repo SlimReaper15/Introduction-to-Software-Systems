@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css"> <!-- Links the CSS file -->
+  </head>
+  <body>
+    <div class="time-zone" id="hyderabad">
+      <h1> Hyderabad </h1>
+      <div class="clock" id="thyd">
+        00:00:00
+      </div>
+    </div>
+
+    <div class="time-zone" id="san-francisco">
+      <h1> San Francisco </h1>
+      <div class="clock" id="tsfo">
+        00:00:00
+      </div>
+      <br><br><br><br>
+      <a class="button" onclick="toggleClockFormat()"> Toggle </a>
+      <br><br><br><br>
+      <a class="button" href="https://youtu.be/NHhTMh0nURA?si=98lB10etZ3aC0AtG" target=”_blank”> Steph Curry Highlights </a>
+    </div>
+
+    <div class="time-zone" id="gmt">
+      <h1> GMT </h1>
+      <div class="clock" id="tgmt">
+        00:00:00
+      </div>
+    </div>
+    <script src="clock.js"></script> <!-- Links the JS file -->
+  </body>
+</html>

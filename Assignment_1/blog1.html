@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog 1</title>
+  <style>
+    body {
+      font-size: 22px;
+      line-height: 1.6;
+      margin: 10px;
+      padding: 10px;
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    article {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 12px 24px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    input[type="text"] {
+      width: calc(100% - 20px);
+      padding: 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 20px;
+    }
+
+    .like-counter {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .comments-section {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Blog 1</h1>
+  </header>
+
+  <article>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id diam in libero fringilla consectetur. Nullam
+      consectetur tortor sit amet neque hendrerit, et commodo justo dapibus. In hac habitasse platea dictumst. Sed vel
+      elit in nulla commodo aliquet. Aenean feugiat, mauris id venenatis cursus, orci lacus fermentum tortor, id
+      fermentum ipsum justo vel justo.
+    </p>
+
+    <p>
+      Integer scelerisque, nunc eu viverra posuere, elit elit pharetra odio, vel convallis sapien tortor et felis.
+      Etiam scelerisque, arcu et consectetur venenatis, nunc mi vulputate sem, vitae bibendum odio ex a neque. Sed eu
+      urna nec neque hendrerit interdum in nec leo. Quisque sed risus a nunc fermentum dignissim. Sed ut lacinia nisl.
+      Morbi vulputate fermentum vestibulum. Aliquam bibendum justo vel aliquet imperdiet. Vestibulum tempus facilisis
+      ante, vel suscipit nisi elementum at.
+    </p>
+
+    <p>
+      Duis a malesuada turpis. Vivamus ut augue non mauris cursus cursus. Nullam eu mauris in lectus cursus volutpat.
+      Suspendisse potenti. Sed accumsan risus eu elit scelerisque, in gravida nulla feugiat. Curabitur aliquet euismod
+      lacinia. Aenean imperdiet elit quis dolor tempor, eu elementum felis suscipit.
+    </p>
+  </article>
+
+  <footer>
+    <button onclick="updateLikes(1)">Like</button>
+    <input type="text" id="commentInput1" placeholder="Add a comment" />
+    <button onclick="addComment(1)">Add Comment</button>
+
+    <p class="like-counter" id="likeCounter1">Likes: 0</p>
+    <div class="comments-section" id="commentsSection1">
+      <h3>Comments</h3>
+      <ul id="commentsList1"></ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

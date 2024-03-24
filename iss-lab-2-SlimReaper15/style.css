@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Seven_Segment';
+    src: url(seven_segment.ttf);
+}
+
+@font-face {
+    font-family: 'Chiller';
+    src: url(chiller.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Chiller', sans-serif;
+    color: rgb(214, 54, 54);
+}
+
+.time-zone {
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#hyderabad {
+    background-image: url(https://preview.redd.it/s63ing0rkqh51.jpg?width=640&crop=smart&auto=webp&s=502c5694e4f3c038d0956eca22fc79b3a3b851c3);
+}
+
+#san-francisco {
+    background-image: url(https://images.unsplash.com/photo-1516864351034-bf734fd2c77e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FuJTIwZnJhbmNpc2NvJTIwYXQlMjBuaWdodHxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+#gmt {
+    background-image: url(https://www.miguelclaro.com/wp/wp-content/uploads/2016/10/PrimeMeridianLaser-RoyalObservatoryGreenwich_9657-net.jpg);
+    background-position: center bottom; /* Image was showing the top part only */
+}
+
+.clock {
+    color: rgb(60, 255, 0);
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Seven_Segment', sans-serif;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(33, 147, 147);
+    color: black;
+    cursor: pointer;
+}

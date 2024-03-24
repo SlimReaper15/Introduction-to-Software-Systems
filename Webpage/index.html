@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Assignment 1 </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .hp {
+              width: 100%;
+              border-collapse: collapse;
+            }
+            .hp th, .hp td {
+              padding: 8px;
+              border: 1px solid #ddd;
+              text-align: left;
+            }
+            .hp tr:nth-child(even) {
+              background-color: #c2b5b5;
+              color: black;
+            }
+
+            .main {
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            .main th, .main td {
+                padding: 8px;
+                border: 1px solid black;
+                border-radius: 10px;
+                text-align: left;
+            }
+            .main tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box-1">
+                <h2> The Latest HTML5 Features </h2>
+                <p align="right">
+                    HTML5 introduced several semantic elements like &lt;article&gt;, &lt;section&gt;, &lt;header&gt;, &lt;footer&gt;, etc., which help define the structure of a webpage more meaningfully. Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. <br>
+                    
+                    Elements such as &lt;header&gt; , &lt;footer&gt; and &lt;article&gt; are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them. <br>
+                    
+                    The &lt;canvas&gt; element allows for dynamic, scriptable rendering of 2D shapes and bitmap images. It's commonly used for games and interactive graphics. <br>
+                    
+                    The &lt;audio&gt; and &lt;video&gt; elements provide native support for embedding audio and video content without relying on third-party plugins. <br>
+                    
+                    HTML5 allows to use a &lt;figure&gt; element to mark up a photo in a document, and a &lt;figcaption&gt; element to define a caption for the photo. The &lt;figcaption&gt; tag defines a caption for a &lt;figure&gt; element. <br>
+                    
+                    When the input type in the form set as email, then the browser gets the instruction from the code to write a valid format email. The input email id is automatically validated to check the format of the email id is correct or not.
+                </p>
+            </div>
+
+            <div class="box-2">
+                <h2> Fonts </h1>
+                <p>
+                    Disclaimer: I have used Comic Sans with the font family style, I don't know if it has to be installed on other systems for it to be displayed properly. Web fonts refer to custom fonts that can be integrated into web pages, providing a broader range of typographic choices beyond the default system fonts. Unlike basic web fonts that are universally available on most devices, web fonts allow designers to choose specific typefaces that align with the visual identity and branding of a website. To use a web font in HTML and CSS, we typically include a link to the font file in the document's &lt;head&gt; section or use the @font-face rule in our CSS to specify font files hosted on your server. Once added, we can apply the web font to HTML elements using the font-family property in our CSS, allowing for more creative and customized typography on our website.
+                </p>
+                <a class="button" href=""> Read More </a>
+            </div>
+
+            <div class="categories">
+                <h2> CSS Frameworks </h2>
+                <ul>
+                    <li> Bootstrap </li>
+                    <li> Foundation </li>
+                    <li> Bulma </li>
+                </ul>
+            </div>
+
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/previews/000/068/968/original/vector-mozilla-firefox-logo.jpg" alt="Fox on Fire" width="400"; style="float:left">
+                <div class="box-3">
+                    <p>
+                        Firefox. The reason for the name is pretty self evident, its logo is a fox which is on fire. Alternatively, it can be interpreted as 'the fox is quite fire'. Also, the logo fell off so bad, how did they go from the image on the left to something so plain. Firefox is a popular and open-source web browser developed by the Mozilla Foundation. Launched in 2002, it has gained a reputation for its focus on user privacy, security, and customization options. Firefox is built on the Gecko rendering engine, which ensures efficient and standards-compliant web page rendering. One notable feature of Firefox is its commitment to user privacy, with tools like Enhanced Tracking Protection that blocks third-party trackers, promoting a more private browsing experience. Additionally, Firefox supports a wide range of extensions and themes, allowing users to tailor their browsing environment to suit individual preferences.
+                    </p>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h2> This is not a Rickroll link, I don't know why you would think that </h2>
+            <a href="https://youtu.be/V-_O7nl0Ii0?si=X-ELeEUK8DyBymDZ"> Totally not a Rickroll (Click Me) </a>
+        
+        <!-- Tables and Colors -->
+        <h2> Harry Potter </h2>
+            <table class="hp">
+                <thead>
+                    <tr>
+                        <th> Character </th>
+                        <th> Spell </th>
+                        <th> Common action </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Harry James Potter</td>
+                        <td> Expelliarmus </td>
+                        <td> Eye roll </td>
+                    </tr>
+                    <tr>
+                        <td> Ron Bilius Weasley</td>
+                        <td> That slug thing </td>
+                        <td> Bloody hell </td>
+                    </tr>
+                    <tr>
+                        <td> Tom "You Know Who The Dark Lord Voldemort" Marvolo Riddle </td>
+                        <td> Avada Kedavra </td>
+                        <td> Avada Kedavra lol </td>
+                    </tr>
+                    <tr>
+                        <td> Albus Percival Wulfric Brian Dumbly-Dorr</td>
+                        <td> Love </td>
+                        <td> Love lol </td>
+                    </tr>
+                    <tr>
+                        <td> Sev Snape </td>
+                        <td> Sectumsempra </td>
+                        <td> Lily lol </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="background-color: green; color: white">
+                The Lord of the Rings. Hobbit, Dwarves, Elves and Men, Kings and Queens, Epicness, Lord of the Rings. The greatest tale ever told on your screen. Frodo must bring the ring to the elves. Aragorn fights off the nine evil Ring wraiths. The Fellowship forms. Saruman's a jerk. Gandalf's torn from the group, You shall not pass! Boromir's embedded. Uruk-hai's beheaded, like a boss. The Fellowship is broken, thanks for that J.R.R Tolkien, Frodo's gone... And Sam's coming with you. Gollum leads the ring to Mordor. Gandalf the White returns to wage war. Pip and Merry hug trees. Théoden is like Benjamin Button, he's aging backwards! Legolas surfs on a shield to defend Helm's Deep. Big trees are attacking the orcs. The sword has been reforged and now a legion of ghosts are at hand. Sam uses his spider slay kills while the elf and Gimli count kills. One last battle, it's good vs evil, Frodo you must destroy the Ring of power. Aragorn sits on his throne, Middle Earth is saved by the smallest of things in the Lord of the Rings.
+            </p>
+          
+            <hr style="width: 70%">
+          
+            <!-- Preformatted text -->
+            <h2> Preformatted </h2>
+            <pre>
+                <code>
+                #include <stdio.h>
+                int main() {
+                    int x;
+                    scanf("%d", &x);
+                    printf("Hello World\n");
+                    if (x == 0)
+                        printf("r/nba");
+                    else
+                        printf("r/idk");
+                }
+            </code>
+            </pre>
+            <h2> Italian Paragraphs </h2>
+            <p>
+                <em>
+                  In web development, HTML (HyperText Markup Language) serves as the foundational language for creating the structure and content of web pages. HTML allows developers to define the various elements on a webpage, such as headings, paragraphs, images, links, forms, and more. It provides a standardized way to organize and present information on the internet. The basic building block of HTML is the HTML tag, which is used to define different elements on a webpage. Tags are enclosed in angle brackets, and most come in pairs, with an opening tag and a closing tag. HTML is often combined with CSS (Cascading Style Sheets) and JavaScript to create visually appealing and interactive websites. CSS is used for styling and layout, while JavaScript adds interactivity and dynamic behavior to web pages. Together, these technologies form the core of modern web development, enabling the creation of diverse and engaging online experiences.
+          
+                  This is an italian paragraph. From the name, we get the notion that such a paragraph, or rather, such a font, originated in Italy. The truth of such an assumption is rather questionable. It is quite presumptious to assume that the font Italics is called that just because Italy, honestly, it's quite outrageous. I just struck upon a theory that the Leaning Tower of Pizza (often correctly referred to as Pisa) is in Italy (is it?) and is, well, leaning. And so are italics. Lemme just look that up. Welp apparently it's named after a printer but I like my theory better and will stick to it.
+                </em>
+            </p>
+            <h2> Eppy's List</h2>
+            <ol>
+                <li> Steph Hawk </li>
+                <li> Don Tru </li>
+                <li> Bi Cli </li>
+            </ol>
+            
+            <p style="font-weight: bold; text-align: center;">
+                This is a bold paragraph. It is similar to Italics in the aspect that it is not named after a country. Bold means showing a willingness to take risks, confident and courageous. For example, this font is bold. This statement means that the font shows a willingness to take risks and is courageous. This paragraph is also centered. Centered is the past tense of center. So centered means that the paragraph was, sometime in the past, made to be in the center. Honestly, this is much better than all the commands they have over at C, like what even is scanf and %d and %f, can't they say something like input?? (Just kidding I like scanf)
+            </p>
+          
+            <!-- Advanced Tables -->
+            <h2>  </h2>
+                <table class="main">
+                    <thead>
+                        <tr>
+                            <th colspan="3"> Full Name </th>
+                            <th> Rings </th>
+                            <th> Fraud? </th>
+                        </tr>
+                    </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td> LeBron </td>
+                            <td> "Mickey Mouse" </td>
+                            <td> James </td>
+                            <td> 2.5 </td>
+                            <td> Yes </td>
+                        </tr>
+                        <tr>
+                            <td> Stephen </td>
+                            <td> "The Baby-Faced Assassin" </td>
+                            <td> Curry </td>
+                            <td> 5 </td>
+                            <td> NEVER </td>
+                        </tr>
+                        <tr>
+                            <td> Kevin </td>
+                            <td> "Slim Reaper" </td>
+                            <td> Durant </td>
+                            <td> 0 </td>
+                            <td> Yes (But less than LeFraud) </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </body>
+</html>

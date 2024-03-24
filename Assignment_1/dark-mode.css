@@ -1,0 +1,64 @@
+:root {
+  --background-color: #211f1f;
+  --text-color: #e3e0e0;
+  --nav-text: #f2e5e5;
+}
+
+body.dark-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+nav.dark-mode {
+  background-color: #100f0f;
+}
+
+.nav-links a.dark-mode {
+  color: var(--nav-text);
+}
+
+/* Change text color to white */
+body.dark-mode,
+.dark-mode .reading-box,
+.dark-mode h1,
+.dark-mode #name,
+.dark-mode .slider-container,
+.dark-mode .slider-text,
+.dark-mode .fancy-quote,
+.dark-mode .p-box,
+.dark-mode .nav-title,
+.dark-mode .nav-links a,
+.dark-mode .activity-text,
+.dark-mode .timeline,
+.dark-mode .checkpoint,
+.dark-mode .checkpoint div,
+.dark-mode .achievements,
+.dark-mode .section-title,
+.dark-mode .flashcard,
+.dark-mode .flashcard:hover,
+.dark-mode .card-content,
+.dark-mode .details,
+.dark-mode .title,
+.dark-mode .skills,
+.dark-mode .skill-box {
+  color: #ede4e4;
+}
+
+.dark-mode .fancy-quote {
+  border-left: 4px solid grey;
+}
+
+/* Change border color to white */
+.dark-mode .p-box,
+.dark-mode .checkpoint div,
+.dark-mode .flashcard {
+  border-color: #fff;
+}
+
+/* Change background color for elements with white text */
+.dark-mode .reading-box,
+.dark-mode .flashcards,
+.dark-mode .blog-item,
+.dark-mode .comments-section {
+  background-color: #211f1f;
+}
